@@ -1,0 +1,242 @@
+* {
+	font-family: 'Source Sans Pro';
+  	font-style: normal;
+  	margin: 0;
+  	padding: 0;
+}
+body {
+	font-size: 30px;
+}
+
+#bg {
+    background: url(../img/pic.jpg) 100% 100% no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 800px;
+}
+
+#zag {
+	background: #75B2BD;
+	margin-left: 0;
+	margin-right: 0;
+	color: #411F10;
+}
+#logo {
+	padding-left: 0;
+	padding-right: 0;
+}
+h1 {
+	text-align: center;
+	font-size: 40px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 20px;
+}
+h2 {
+	font-size: 38px;
+}
+
+#form {
+	height: 400px;
+	width: 300px;
+	border-radius: 15px;
+	background-color: rgba(117,178,189,0.5);
+	margin-top: 100px;
+	margin-left: 10px;
+	
+}
+
+#hotite {
+	font-size: 38px;
+	text-align: center;
+	color: #411F10;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.form-control {
+	font-size: 24px;
+	font-weight: lighter;
+	width: 250px;
+	height: 55px;
+	border-radius: 15px;
+}
+
+#knopka {
+	font-size: 24px;
+	font-style: light;
+	border-radius: 15px;
+	width: 250px;
+	height: 55px;
+	margin-top: 20px;
+}
+
+#why {
+	background: #411F10;
+	padding-bottom: 50px;
+}
+#zag2 {
+	font-size: 38px;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+
+#first {
+	padding-left: 0px;
+    padding-right: 0px;
+}
+
+#text {
+	color: #ffffff;
+	text-align: center;
+	font-size: 24px;
+}
+
+.ris {
+	margin-bottom: 20px;
+}
+
+#pred {
+	text-align: center;
+	font-size: 24px;
+	color: #411F10;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+
+.text2 {
+	text-align: center;
+	font-size: 30px;
+	color: #411F10;
+}
+
+.ris2 {
+	text-align: center;
+}
+
+#cen {
+	text-align: center;
+}
+#cen2 {
+	text-align: center;
+}
+
+
+#zerno {
+	margin-bottom: 50px;
+}
+
+#podval {
+	background: #411F10;
+	color: #ffffff;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	text-align: left;
+}
+
+#pole3 {
+	margin-left: 5px;
+	width: 280px;
+}
+
+em {
+	text-align: center;
+	display: block;
+}
+
+.form-horizontal .form-group {
+	margin-right: -10px;
+	margin-left: -10px;
+}
+
+.sog {
+	color: #ffffff;
+	margin-bottom: 0px;
+}
+
+ a:focus {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#about {
+	font-size: 18px;
+}
+
+.doc {
+	font-size: 22px;
+	font-weight: 800;
+	display: block;
+	text-align: center;
+}
+
+.bl a:hover {
+	color: blue;
+}
+.f {
+	margin-left: 5px;
+	width: 280px;
+}	
+	
+
+
+/*Large DEvices, Wide Screens*/
+@media only screen and (max-width: 1200px) {
+   .ris2 {
+	margin-left: 0px;
+}
+
+
+
+}
+
+/*Medium Devices, Desktops*/
+@media only screen and (max-width: 992 px) {
+    
+h1 {
+	font-size: 38px;
+}
+}
+ 
+
+
+/*Small Devices, Tablets*/
+@media only screen and (max-width: 768px) {
+
+h1 {
+	font-size: 28px;
+}
+.ris2 {
+	margin-left: 0px;
+}
+
+}
+  
+    
+
+
+/*Extra Small Devices, Phones*/
+@media only screen and (max-width: 480px) {
+
+#form {
+	margin-top: 45px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+	height: 400px;
+	width: 320px;
+}
+
+#hotite {
+	font-size: 32px;
+	text-align: center;
+}
+.ris2 {
+	margin-left: 0px;
+}
+
+
+}
